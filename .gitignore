@@ -1,0 +1,26 @@
+# build
+build/
+out/
+cmake-build-*/
+
+# compiled objects
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+
+# Cmake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+_deps/
+
+# ide
+.vscode/
+.idea/
+*.xcodeproj/
+*.swp
+.DS_STORE
